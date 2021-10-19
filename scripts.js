@@ -4,7 +4,6 @@ let nextPlayer = 'X'; // takes a value of either 'X' or 'O' according to the gam
 var initializeBTN = document.createElement('button');
 initializeBTN.innerText = 'Click Here to Start The Game'
 document.getElementById('game-over-lbl').appendChild(initializeBTN);
-initializeBTN.addEventListener('click', (initialEvent) => {initialEvent.target.hidden = true;});
 
 // use the value stored in the nextPlayer variable to indicate who the next player is
 let playerValue = document.querySelector('b');
